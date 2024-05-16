@@ -1,3 +1,14 @@
+"""
+Time Complexity:
+- Appending to End: O(n)
+- Prepending to Start: O(1)
+- Deleting a Node: O(n)
+- Printing the List: O(n)
+
+Space Complexity:
+- Node Creation: O(1) per node
+"""
+
 class Node:
     def __init__(self, data=None):
         # Initialize a node with data and a reference to the next node
